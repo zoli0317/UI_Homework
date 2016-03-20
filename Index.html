@@ -4,6 +4,8 @@
 <title>Hcom UI test</title>
 <meta charset="utf-8">
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -20,13 +22,13 @@
 			<div>
 				<table>
 				  <tr>
-					<td class="hotelName">The May Fair</td>
+					<td id="hotelName" class="hotelName">The May Fair</td>
 					<td class="currency">&pound;</td> 
-					<td class="hotelPrice">214</td> 
-					<td><button class="increaseRoomNumber"></button></td> 
-					<td><b>0</b></td> 
-					<td><button class="decreaseRoomNumber"></button></td> 
-				  </tr>  
+					<td id="hotelPrice" class="hotelPrice">214</td> 
+					<td><button id="increaseRoomNumber" class="increaseRoomNumber"></button></td> 
+					<td id="pieceOfNights"><b>0</b></td> 
+					<td><button id="decreaseRoomNumber" class="decreaseRoomNumber"></button></td> 
+				  </tr>  				  
 				  <tr>
 					<td class="hotelName">Grand Plaza Serviced Apartments</td>
 					<td class="currency">&pound;</td> 
@@ -68,7 +70,21 @@
 <section>
 	<fieldset>
 		<legend>Room Prices</legend>
+		<table>
+			  <tr class="resultRow">
+				<td id="reservedHotelName" class="reservedHotelName"></td>
+				<td>&#32;</td>
+			  </tr>  			  
+			  <tr class="resultRow">
+				<td id="reservedHotelNights" class="reservedHotelNights"></td>
+				<td id="reservedHotelPrice" class="reservedHotelPrice"></td>
+			  </tr>
+		</table>  
 	</fieldset>
+	<div id="totalPriceModule">
+		<span id="totalPriceText">Total price: </span>
+		<span id="totalPrice">&pound;0</span>		
+	</div>
 </section>
 
 </body>

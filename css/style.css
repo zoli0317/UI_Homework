@@ -9,13 +9,15 @@ section {
 }
 
 fieldset {
-    border: 3px solid #f8ac19;
-	border-radius: 5px;
+	border: 0;
+    border-top: solid #f8ac19;
+    border-bottom: solid #f8ac19;
 }
 
 legend{
 	font-size: 20px;
 	color: #f8ac19;
+	margin: 0px 0px 0px -15px;
 }
 
 table {
@@ -29,15 +31,13 @@ td {
 	padding: 3px ;
 }
 
-legend, .destinationName, .moreHotels{
+legend, a, .destinationName, .moreHotels{
     font-weight: bold;
 	font-family: Arial;
 }
 
 a{
-	font-family: Arial;
 	font-size: 13px;
-	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -68,24 +68,40 @@ button {
 	padding: 5px ;
 }
 
-a, .destinationName, .hotelName{
+a, #reservedHotelNights, #reservedHotelName, .destinationName, .hotelName{
 	color: #5b99dd;
+}
+
+.reservedHotelNights{
+	padding-left: 30px; 
 }
 
 .moreHotels{
 	color: #8c8c8c;
 }
 
-.hotelName{
+#reservedHotelName, .reservedHotelNights, .hotelName{
 	font-family: Arial;
 	font-size: 13px;
 }
 
-.hotelPrice, .currency{
+#totalPrice, #reservedHotelPrice, .hotelPrice, .currency{
 	color: #008800;
     font-weight: bold;
 }
 
-.currency{
+#reservedHotelPrice, .currency{
 	text-align: right;
 }
+
+#totalPriceModule {
+    font-family: Arial;
+	padding: 5px 15px 0px 0px;
+	float: right;
+}
+
+#totalPriceText{
+	font-size: 18px;
+	color: #f8ac19;
+}
+

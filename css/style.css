@@ -17,7 +17,7 @@ fieldset {
 legend{
 	font-size: 20px;
 	color: #f8ac19;
-	margin: 0px 0px 0px -15px;
+	margin: 0px 0px 0px -13px;
 }
 
 table {
@@ -62,13 +62,13 @@ button {
 	background-image: url(../assets/icon-remove.png);
 }
 
-#firstDestination{
+#firstDestination, #secondDestination, #thirdDestination{
 	background-color: #dae9f4;
-	margin: 5px 0px 5px 0px;
+	margin: 5px -10px 5px -10px;
 	padding: 5px ;
 }
 
-a, #reservedHotelNights, #reservedHotelName, .destinationName, .hotelName{
+a, #reservedHotelNights_1_1, #reservedHotelName_1_1, .destinationName, .hotelName{
 	color: #5b99dd;
 }
 
@@ -78,19 +78,20 @@ a, #reservedHotelNights, #reservedHotelName, .destinationName, .hotelName{
 
 .moreHotels{
 	color: #8c8c8c;
+	padding-left: 10px; 
 }
 
-#reservedHotelName, .reservedHotelNights, .hotelName{
+#reservedHotelName_1_1, .reservedHotelNights, .hotelName{
 	font-family: Arial;
 	font-size: 13px;
 }
 
-#totalPrice, #reservedHotelPrice, .hotelPrice, .currency{
+#totalPrice, #reservedHotelPrice_1_1, .hotelPrice, .currency{
 	color: #008800;
     font-weight: bold;
 }
 
-#reservedHotelPrice, .currency{
+#reservedHotelPrice_1_1, .currency{
 	text-align: right;
 }
 
@@ -105,3 +106,7 @@ a, #reservedHotelNights, #reservedHotelName, .destinationName, .hotelName{
 	color: #f8ac19;
 }
 
+#seeMoreHotels{
+    padding: 5px;
+	float: right;
+}

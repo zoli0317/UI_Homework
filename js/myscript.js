@@ -1,42 +1,60 @@
 $(document).ready(function(){
-	var nightCounter = 0;
-	var hotelPrice = 0;
+	var nightCounter_1_1 = 0;
+	var hotelPrice_1_1 = 0;
 	var totalPrices = 0;
 
-	$(".resultRow").hide();
+    $("#secondHotels").hide();
+    $("#thirdHotels").hide();
+	$(".resultRow_1_1").hide();
 		
-    $("#increaseRoomNumber").click(function(){
-		nightCounter ++;
+    $("#increaseRoomNumber_1_1").click(function(){
+		nightCounter_1_1 ++;
 		updateReservedHotelDetails();
 		countTotalPrice();
     });
 	
-	$("#decreaseRoomNumber").click(function(){
-		if (nightCounter > 0) {
-			nightCounter --;
+	$("#decreaseRoomNumber_1_1").click(function(){
+		if (nightCounter_1_1 > 0) {
+			nightCounter_1_1 --;
 			updateReservedHotelDetails();
 			countTotalPrice();
 		}
-		if (nightCounter == 0) {
-			$("#reservedHotelName").hide();
-			$("#reservedHotelNights").hide();
-			$("#reservedHotelPrice").hide();
-			$(".resultRow").hide();
+		if (nightCounter_1_1 == 0) {
+			$("#reservedHotelName_1_1").hide();
+			$("#reservedHotelNights_1_1").hide();
+			$("#reservedHotelPrice_1_1").hide();
+			$(".resultRow_1_1").hide();
 		}
     });
 	
 	function updateReservedHotelDetails(){
-		$(".resultRow").show();
-	    $("#pieceOfNights").html($("<b></b>").text(nightCounter));
-		hotelPrice = nightCounter * $("#hotelPrice").text();
-		$("#reservedHotelName").show().text($("#hotelName").text());
-		$("#reservedHotelNights").show().text($("#pieceOfNights").text() + " night(s)");
-		$("#reservedHotelPrice").show().html("&pound;" + hotelPrice);
+		$(".resultRow_1_1").show();
+	    $("#pieceOfNights_1_1").html($("<b></b>").text(nightCounter_1_1));
+		hotelPrice_1_1 = nightCounter_1_1 * $("#hotelPrice_1_1").text();
+		$("#reservedHotelName_1_1").show().html($("<b></b>").text($("#hotelName_1_1").text()));
+		$("#reservedHotelNights_1_1").show().text($("#pieceOfNights_1_1").text() + " night(s)");
+		$("#reservedHotelPrice_1_1").show().html("&pound;" + hotelPrice_1_1);
 	}
 
 	function countTotalPrice(){
-		totalPrices = hotelPrice;
+		totalPrices = hotelPrice_1_1;
 		$("#totalPrice").show().html("&pound;" + totalPrices);	
 	}
 
+	
+	    $("#firstDestination").click(function(){
+        $("#firstHotels").slideToggle("slow");
+		$("#arrowOpen1").attr("src", "assets/arrow-3.png");
+    });
+	
+	$("#secondDestination").click(function(){
+        $("#secondHotels").slideToggle("slow");
+		$("#arrowOpen2").attr("src", "assets/arrow-2.png");
+    });
+	
+	$("#thirdDestination").click(function(){
+        $("#thirdHotels").slideToggle("slow");
+		$("#arrowOpen3").attr("src", "assets/arrow-2.png");
+    });
+	
 });

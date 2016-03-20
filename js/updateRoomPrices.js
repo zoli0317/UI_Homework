@@ -48,7 +48,7 @@ $(document).ready(function(){
 		$(".resultRow_1_1").show();
 	    $("#pieceOfNights_1_1").html($("<b></b>").text(nightCounter_1_1));
 		hotelPrice_1_1 = nightCounter_1_1 * $("#hotelPrice_1_1").text();
-		$("#reservedHotelName_1_1").show().html($("<b></b>").text($("#hotelName_1_1").text()));
+		$("#reservedHotelName_1_1").show().html($("#hotelName_1_1").text());
 		$("#reservedHotelNights_1_1").show().text($("#pieceOfNights_1_1").text() + " night(s)");
 		$("#reservedHotelPrice_1_1").show().html("&pound;" + hotelPrice_1_1);
 	}
@@ -79,7 +79,7 @@ $(document).ready(function(){
 		$(".resultRow_1_2").show();
 	    $("#pieceOfNights_1_2").html($("<b></b>").text(nightCounter_1_2));
 		hotelPrice_1_2 = nightCounter_1_2 * $("#hotelPrice_1_2").text();
-		$("#reservedHotelName_1_2").show().html($("<b></b>").text($("#hotelName_1_2").text()));
+		$("#reservedHotelName_1_2").show().html($("#hotelName_1_2").text());
 		$("#reservedHotelNights_1_2").show().text($("#pieceOfNights_1_2").text() + " night(s)");
 		$("#reservedHotelPrice_1_2").show().html("&pound;" + hotelPrice_1_2);
 	}
@@ -110,7 +110,7 @@ $(document).ready(function(){
 		$(".resultRow_1_3").show();
 	    $("#pieceOfNights_1_3").html($("<b></b>").text(nightCounter_1_3));
 		hotelPrice_1_3 = nightCounter_1_3 * $("#hotelPrice_1_3").text();
-		$("#reservedHotelName_1_3").show().html($("<b></b>").text($("#hotelName_1_3").text()));
+		$("#reservedHotelName_1_3").show().html($("#hotelName_1_3").text());
 		$("#reservedHotelNights_1_3").show().text($("#pieceOfNights_1_3").text() + " night(s)");
 		$("#reservedHotelPrice_1_3").show().html("&pound;" + hotelPrice_1_3);
 	}
@@ -141,7 +141,7 @@ $(document).ready(function(){
 		$(".resultRow_1_4").show();
 	    $("#pieceOfNights_1_4").html($("<b></b>").text(nightCounter_1_4));
 		hotelPrice_1_4 = nightCounter_1_4 * $("#hotelPrice_1_4").text();
-		$("#reservedHotelName_1_4").show().html($("<b></b>").text($("#hotelName_1_4").text()));
+		$("#reservedHotelName_1_4").show().html($("#hotelName_1_4").text());
 		$("#reservedHotelNights_1_4").show().text($("#pieceOfNights_1_4").text() + " night(s)");
 		$("#reservedHotelPrice_1_4").show().html("&pound;" + hotelPrice_1_4);
 	}
@@ -172,7 +172,7 @@ $(document).ready(function(){
 		$(".resultRow_1_5").show();
 	    $("#pieceOfNights_1_5").html($("<b></b>").text(nightCounter_1_5));
 		hotelPrice_1_5 = nightCounter_1_5 * $("#hotelPrice_1_5").text();
-		$("#reservedHotelName_1_5").show().html($("<b></b>").text($("#hotelName_1_5").text()));
+		$("#reservedHotelName_1_5").show().html($("#hotelName_1_5").text());
 		$("#reservedHotelNights_1_5").show().text($("#pieceOfNights_1_5").text() + " night(s)");
 		$("#reservedHotelPrice_1_5").show().html("&pound;" + hotelPrice_1_5);
 	}
@@ -203,7 +203,7 @@ $(document).ready(function(){
 		$(".resultRow_2_1").show();
 	    $("#pieceOfNights_2_1").html($("<b></b>").text(nightCounter_2_1));
 		hotelPrice_2_1 = nightCounter_2_1 * $("#hotelPrice_2_1").text();
-		$("#reservedHotelName_2_1").show().html($("<b></b>").text($("#hotelName_2_1").text()));
+		$("#reservedHotelName_2_1").show().html($("#hotelName_2_1").text());
 		$("#reservedHotelNights_2_1").show().text($("#pieceOfNights_2_1").text() + " night(s)");
 		$("#reservedHotelPrice_2_1").show().html("&pound;" + hotelPrice_2_1);
 	}	
@@ -234,7 +234,7 @@ $(document).ready(function(){
 		$(".resultRow_2_2").show();
 	    $("#pieceOfNights_2_2").html($("<b></b>").text(nightCounter_2_2));
 		hotelPrice_2_2 = nightCounter_2_2 * $("#hotelPrice_2_2").text();
-		$("#reservedHotelName_2_2").show().html($("<b></b>").text($("#hotelName_2_2").text()));
+		$("#reservedHotelName_2_2").show().html($("#hotelName_2_2").text());
 		$("#reservedHotelNights_2_2").show().text($("#pieceOfNights_2_2").text() + " night(s)");
 		$("#reservedHotelPrice_2_2").show().html("&pound;" + hotelPrice_2_2);
 	}	
@@ -264,7 +264,7 @@ $(document).ready(function(){
 		$(".resultRow_2_3").show();
 	    $("#pieceOfNights_2_3").html($("<b></b>").text(nightCounter_2_3));
 		hotelPrice_2_3 = nightCounter_2_3 * $("#hotelPrice_2_3").text();
-		$("#reservedHotelName_2_3").show().html($("<b></b>").text($("#hotelName_2_3").text()));
+		$("#reservedHotelName_2_3").show().html($("#hotelName_2_3").text());
 		$("#reservedHotelNights_2_3").show().text($("#pieceOfNights_2_3").text() + " night(s)");
 		$("#reservedHotelPrice_2_3").show().html("&pound;" + hotelPrice_2_3);
 	}	
@@ -294,7 +294,7 @@ $(document).ready(function(){
 		$(".resultRow_2_4").show();
 	    $("#pieceOfNights_2_4").html($("<b></b>").text(nightCounter_2_4));
 		hotelPrice_2_4 = nightCounter_2_4 * $("#hotelPrice_2_4").text();
-		$("#reservedHotelName_2_4").show().html($("<b></b>").text($("#hotelName_2_4").text()));
+		$("#reservedHotelName_2_4").show().html($("#hotelName_2_4").text());
 		$("#reservedHotelNights_2_4").show().text($("#pieceOfNights_2_4").text() + " night(s)");
 		$("#reservedHotelPrice_2_4").show().html("&pound;" + hotelPrice_2_4);
 	}		
@@ -325,7 +325,7 @@ $(document).ready(function(){
 		$(".resultRow_2_5").show();
 	    $("#pieceOfNights_2_5").html($("<b></b>").text(nightCounter_2_5));
 		hotelPrice_2_5 = nightCounter_2_5 * $("#hotelPrice_2_5").text();
-		$("#reservedHotelName_2_5").show().html($("<b></b>").text($("#hotelName_2_5").text()));
+		$("#reservedHotelName_2_5").show().html($("#hotelName_2_5").text());
 		$("#reservedHotelNights_2_5").show().text($("#pieceOfNights_2_5").text() + " night(s)");
 		$("#reservedHotelPrice_2_5").show().html("&pound;" + hotelPrice_2_5);
 	}
@@ -355,7 +355,7 @@ $(document).ready(function(){
 		$(".resultRow_3_1").show();
 	    $("#pieceOfNights_3_1").html($("<b></b>").text(nightCounter_3_1));
 		hotelPrice_3_1 = nightCounter_3_1 * $("#hotelPrice_3_1").text();
-		$("#reservedHotelName_3_1").show().html($("<b></b>").text($("#hotelName_3_1").text()));
+		$("#reservedHotelName_3_1").show().html($("#hotelName_3_1").text());
 		$("#reservedHotelNights_3_1").show().text($("#pieceOfNights_3_1").text() + " night(s)");
 		$("#reservedHotelPrice_3_1").show().html("&pound;" + hotelPrice_3_1);
 	}	
@@ -386,7 +386,7 @@ $(document).ready(function(){
 		$(".resultRow_3_2").show();
 	    $("#pieceOfNights_3_2").html($("<b></b>").text(nightCounter_3_2));
 		hotelPrice_3_2 = nightCounter_3_2 * $("#hotelPrice_3_2").text();
-		$("#reservedHotelName_3_2").show().html($("<b></b>").text($("#hotelName_3_2").text()));
+		$("#reservedHotelName_3_2").show().html($("#hotelName_3_2").text());
 		$("#reservedHotelNights_3_2").show().text($("#pieceOfNights_3_2").text() + " night(s)");
 		$("#reservedHotelPrice_3_2").show().html("&pound;" + hotelPrice_3_2);
 	}	
@@ -416,7 +416,7 @@ $(document).ready(function(){
 		$(".resultRow_3_3").show();
 	    $("#pieceOfNights_3_3").html($("<b></b>").text(nightCounter_3_3));
 		hotelPrice_3_3 = nightCounter_3_3 * $("#hotelPrice_3_3").text();
-		$("#reservedHotelName_3_3").show().html($("<b></b>").text($("#hotelName_3_3").text()));
+		$("#reservedHotelName_3_3").show().html($("#hotelName_3_3").text());
 		$("#reservedHotelNights_3_3").show().text($("#pieceOfNights_3_3").text() + " night(s)");
 		$("#reservedHotelPrice_3_3").show().html("&pound;" + hotelPrice_3_3);
 	}	
@@ -446,7 +446,7 @@ $(document).ready(function(){
 		$(".resultRow_3_4").show();
 	    $("#pieceOfNights_3_4").html($("<b></b>").text(nightCounter_3_4));
 		hotelPrice_3_4 = nightCounter_3_4 * $("#hotelPrice_3_4").text();
-		$("#reservedHotelName_3_4").show().html($("<b></b>").text($("#hotelName_3_4").text()));
+		$("#reservedHotelName_3_4").show().html($("#hotelName_3_4").text());
 		$("#reservedHotelNights_3_4").show().text($("#pieceOfNights_3_4").text() + " night(s)");
 		$("#reservedHotelPrice_3_4").show().html("&pound;" + hotelPrice_3_4);
 	}		
@@ -477,7 +477,7 @@ $(document).ready(function(){
 		$(".resultRow_3_5").show();
 	    $("#pieceOfNights_3_5").html($("<b></b>").text(nightCounter_3_5));
 		hotelPrice_3_5 = nightCounter_3_5 * $("#hotelPrice_3_5").text();
-		$("#reservedHotelName_3_5").show().html($("<b></b>").text($("#hotelName_3_5").text()));
+		$("#reservedHotelName_3_5").show().html($("#hotelName_3_5").text());
 		$("#reservedHotelNights_3_5").show().text($("#pieceOfNights_3_5").text() + " night(s)");
 		$("#reservedHotelPrice_3_5").show().html("&pound;" + hotelPrice_3_5);
 	}

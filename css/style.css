@@ -1,0 +1,91 @@
+body {
+    background-color: white;
+}
+
+section {
+    width: 40%;
+	float: left;
+	margin: 20px;
+}
+
+fieldset {
+    border: 3px solid #f8ac19;
+	border-radius: 5px;
+}
+
+legend{
+	font-size: 20px;
+	color: #f8ac19;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: left;
+    border-bottom: 1px solid #dae9f4;
+	padding: 3px ;
+}
+
+legend, .destinationName, .moreHotels{
+    font-weight: bold;
+	font-family: Arial;
+}
+
+a{
+	font-family: Arial;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.destinationName, .moreHotels{
+	font-size: 15px;
+}
+
+button {
+    width: 13px;
+	height: 13px;
+	border: none;
+	background-repeat: no-repeat;
+    background-position: center; 
+	vertical-align: middle;
+}
+
+.increaseRoomNumber{
+	background-image: url(../assets/icon-add.png);
+}
+
+.decreaseRoomNumber{
+	background-image: url(../assets/icon-remove.png);
+}
+
+#firstDestination{
+	background-color: #dae9f4;
+	margin: 5px 0px 5px 0px;
+	padding: 5px ;
+}
+
+a, .destinationName, .hotelName{
+	color: #5b99dd;
+}
+
+.moreHotels{
+	color: #8c8c8c;
+}
+
+.hotelName{
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.hotelPrice, .currency{
+	color: #008800;
+    font-weight: bold;
+}
+
+.currency{
+	text-align: right;
+}

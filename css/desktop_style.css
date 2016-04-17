@@ -31,18 +31,34 @@ td {
 	padding: 3px ;
 }
 
-legend, a, .destinationName, .moreHotels{
-    font-weight: bold;
-	font-family: Arial;
-}
-
 a{
 	font-size: 13px;
 	text-decoration: none;
 }
 
+legend, a, .destinationName, .moreHotels{
+    font-weight: bold;
+	font-family: Arial;
+}
+
 .destinationName, .moreHotels{
 	font-size: 15px;
+}
+
+.hotelName{
+    width: 75%;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.destination{
+	background-color: #dae9f4; 
+	margin: 5px -10px 5px -10px;
+	padding: 5px ;
+}
+
+a, .destinationName, .hotelName{
+	color: #5b99dd;
 }
 
 button {
@@ -62,14 +78,8 @@ button {
 	background-image: url(../assets/icon-remove.png);
 }
 
-#firstDestination, #secondDestination, #thirdDestination{
-	background-color: #dae9f4; 
-	margin: 5px -10px 5px -10px;
-	padding: 5px ;
-}
-
-a, .destinationName, .hotelName{
-	color: #5b99dd;
+.pieceOfNights{
+    font-weight: bold;
 }
 
 .reservedHotelName{
@@ -80,35 +90,14 @@ a, .destinationName, .hotelName{
 
 .reservedHotelNights{
 	color: #5b99dd;
+	font-family: Arial;
+	font-size: 13px;
 	padding: 0px 0px 0px 15px;
 }
 
 .reservedHotelPrice{
 	color: #008800;
     font-weight: bold;
-	text-align: right;
-}
-
-.reservedHotelNights{
-	padding-left: 30px; 
-}
-
-.moreHotels{
-	color: #8c8c8c;
-	padding-left: 10px; 
-}
-
-.reservedHotelNights, .hotelName{
-	font-family: Arial;
-	font-size: 13px;
-}
-
-#totalPrice, .hotelPrice, .currency{
-	color: #008800;
-    font-weight: bold;
-}
-
-.currency{
 	text-align: right;
 }
 
@@ -122,8 +111,17 @@ a, .destinationName, .hotelName{
 	font-size: 18px;
 	color: #f8ac19;
 }
+#totalPrice, .hotelPrice{
+	color: #008800;
+    font-weight: bold;
+}
 
-#seeMoreHotels{
+.moreHotels{
+	color: #8c8c8c;
+	padding-left: 10px; 
+}
+
+.seeMoreHotels{
     padding: 5px;
 	float: right;
 }

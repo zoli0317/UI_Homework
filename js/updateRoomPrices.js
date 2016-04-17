@@ -7,7 +7,7 @@ $('.increaseRoomNumber').on('click', function () {
 	var newNumberOfNights = currentNumberOfNights + 1;
 	$(this).parent().siblings('.pieceOfNights').html(newNumberOfNights);
 	var hotelName = $(this).parent().siblings('.hotelName').html();
-	var price = Number($(this).parent().siblings('.hotelPrice').html());
+	var price = Number($(this).parent().siblings('.hotelPrice').find('span').html());
 	
 	//Create a hotel
 	var hotel = {
@@ -42,7 +42,7 @@ $('.decreaseRoomNumber').on('click', function() {
 	var newNumberOfNights = currentNumberOfNights - 1;
 	$(this).parent().siblings('.pieceOfNights').html(newNumberOfNights);
 	var hotelName = $(this).parent().siblings('.hotelName').html();
-	var price = (-1) * Number($(this).parent().siblings('.hotelPrice').html());
+	var price = (-1) * Number($(this).parent().siblings('.hotelPrice').find('span').html());
 	
 	var hotel = {
 		name: hotelName,
@@ -94,7 +94,7 @@ function updateSummary(){
 		totalPrice += hotelPrice;
 	});
 	
-	$('.totalPrice').html('<span>&pound;</span>' + totalPrice);
+	$('#totalPrice').html('<span>&pound;</span>' + totalPrice);
 }
 
 });

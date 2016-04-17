@@ -1,206 +1,185 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hcom UI test</title>
-<meta charset="utf-8">
+	<title>Hcom UI test</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="css/desktop_style.css">
+</head>
+
+<body>
+	<section>
+		<fieldset>
+			<legend>Top Destinations</legend>
+			<div>
+				<div class="destination">
+					<img id="arrowOpen1" class="arrow arrowOpen" height="6" width="6"/>
+					<span class="destinationName">London, United Kingdom</span>
+					<div class="moreHotels">over 829 hotels</div>
+				</div>
+				<div id="firstHotel" class="hotel">
+					<table>
+					  <tr>
+						<td class="hotelName">The May Fair</td>
+						<td class="hotelPrice">&pound;<span>214</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  				  
+					  <tr>
+						<td class="hotelName">Grand Plaza Serviced Apartments</td>
+						<td class="hotelPrice">&pound;<span>79</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr> 
+					  <tr>
+						<td class="hotelName">The Strand Palace</td>
+						<td class="hotelPrice">&pound;<span>104</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>   
+					  <tr>
+						<td class="hotelName">The Rembrandt</td>
+						<td class="hotelPrice">&pound;<span>142</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Hesperia London Victoria</td>
+						<td class="hotelPrice">&pound;<span>112</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>   
+					</table>
+					<a href="https://hu.hotels.com/search.do?resolved-location=CITY%3A549499%3AUNKNOWN%3AUNKNOWN&destination-id=549499&q-destination=London,%20Anglia,%20Egyes%C3%BClt%20Kir%C3%A1lys%C3%A1g&q-localised-check-in=2016%2F03%2F21&q-localised-check-out=2016%2F03%2F22&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">
+						See all 829 hotels in London 
+						<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15"/>
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="destination">
+					<img id="arrowOpen2" class="arrow arrowClose" height="6" width="6"/>
+					<span class="destinationName">New York, New York, United States</span>
+					<div class="moreHotels">over 583 hotels</div>
+				</div>
+				<div id="secondHotel" class="hotel">
+					<table>
+					  <tr>
+						<td class="hotelName">The Waldorf Astoria</td>
+						<td class="hotelPrice">&pound;<span>114</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Park Central New York Hotel</td>
+						<td class="hotelPrice">&pound;<span>256</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Hilton Garden Inn New York/West 35th Street</td>
+						<td class="hotelPrice">&pound;<span>122</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Hilton New York</td>
+						<td class="hotelPrice">&pound;<span>75</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Hotel Pennsylvania</td>
+						<td class="hotelPrice">&pound;<span>98</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					</table>
+					<a href="https://hu.hotels.com/search.do?resolved-location=CITY%3A1506246%3AUNKNOWN%3AUNKNOWN&destination-id=1506246&q-destination=New%20York,%20New%20York,%20Amerikai%20Egyes%C3%BClt%20%C3%81llamok&q-localised-check-in=2016%2F03%2F21&q-localised-check-out=2016%2F03%2F22&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">
+						See all 583 hotels in New York
+						<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15">
+					</a>
+				</div>
+			</div>
+			<div>
+				<div class="destination">
+					<img id="arrowOpen3" class="arrow arrowClose" height="6" width="6"/>
+					<span class="destinationName">Paris, France</span>
+					<div class="moreHotels">over 1554 hotels</div>
+				</div>
+				<div id="thirdHotel" class="hotel">
+					<table>
+					  <tr>
+						<td class="hotelName">Sofitel Paris Le Faubourg</td>
+						<td class="hotelPrice">&pound;<span>77</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Pullman Paris Tour Eiffel</td>
+						<td class="hotelPrice">&pound;<span>89</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Champs Elysees Mac Mahon</td>
+						<td class="hotelPrice">&pound;<span>135</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Hotel Regina</td>
+						<td class="hotelPrice">&pound;<span>133</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					  <tr>
+						<td class="hotelName">Hotel Pershing Hall Paris</td>
+						<td class="hotelPrice">&pound;<span>145</span></td> 
+						<td><button class="increaseRoomNumber"></button></td> 
+						<td class="pieceOfNights">0</td> 
+						<td><button class="decreaseRoomNumber"></button></td> 
+					  </tr>  
+					</table>
+					<a href="https://hu.hotels.com/search.do?resolved-location=CITY%3A504261%3AUNKNOWN%3AUNKNOWN&destination-id=504261&q-destination=P%C3%A1rizs,%20Franciaorsz%C3%A1g&q-localised-check-in=2016%2F03%2F21&q-localised-check-out=2016%2F03%2F22&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">
+						See all 1554 hotels in Paris
+						<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15">
+					</a>
+				</div>
+			</div>
+			<a class="seeMoreHotels" href="https://hu.hotels.com/">
+				See all of our destination offers
+				<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15">
+			</a>
+		</fieldset>
+	</section>
+	<section>
+		<fieldset>
+			<legend>Room Prices</legend>
+			<table id="summaryModuleTable"></table>
+		</fieldset>
+		<div id="totalPriceModule">
+			<span id="totalPriceText">Total price: </span>
+			<span id="totalPrice">0</span>		
+		</div>
+	</section>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/myscript.js"></script>
 <script type="text/javascript" src="js/updateRoomPrices.js"></script>
-<link rel="stylesheet" type="text/css" href="css/desktop_style.css">
-<link rel="stylesheet" media="screen and (max-width: 900px) and (min-width: 480px)" href="css/tablet_style.css">
-<link rel="stylesheet" media="screen and (max-width: 480px)" href="css/mobile_style.css">
-</head>
-
-<body>
-<section id="hotelDataSection">
-	<fieldset>
-		<legend>Top Destinations</legend>
-		<div>
-			<div id="firstDestination" class="destination">
-				<img id="arrowOpen1" class="arrow arrowOpen"></img>
-				<span class="destinationName">London, United Kingdom</span>
-				<div class="moreHotels">over 829 hotels</div>
-			</div>
-			<div id="firstHotel" class="hotel">
-				<table>
-				  <tr>
-					<td id="hotelName_1_1" class="hotelName">The May Fair</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_1_1" class="hotelPrice">214</td> 
-					<td><button id="increaseRoomNumber_1_1" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_1_1" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_1_1" class="decreaseRoomNumber"></button></td> 
-				  </tr>  				  
-				  <tr>
-					<td id="hotelName_1_2" class="hotelName">Grand Plaza Serviced Apartments</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_1_2" class="hotelPrice">79</td> 
-					<td><button id="increaseRoomNumber_1_2" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_1_2" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_1_2" class="decreaseRoomNumber"></button></td> 
-				  </tr> 
-				  <tr>
-					<td id="hotelName_1_3" class="hotelName">The Strand Palace</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_1_3" class="hotelPrice">104</td> 
-					<td><button id="increaseRoomNumber_1_3" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_1_3" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_1_3" class="decreaseRoomNumber"></button></td> 
-				  </tr>   
-				  <tr>
-					<td id="hotelName_1_4" class="hotelName">The Rembrandt</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_1_4" class="hotelPrice">142</td> 
-					<td><button id="increaseRoomNumber_1_4" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_1_4" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_1_4" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				  <tr>
-					<td id="hotelName_1_5" class="hotelName">Hesperia London Victoria</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_1_5" class="hotelPrice">112</td> 
-					<td><button id="increaseRoomNumber_1_5" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_1_5" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_1_5" class="decreaseRoomNumber"></button></td> 
-				  </tr>   
-				</table>
-				<a href="https://hu.hotels.com/search.do?resolved-location=CITY%3A549499%3AUNKNOWN%3AUNKNOWN&destination-id=549499&q-destination=London,%20Anglia,%20Egyes%C3%BClt%20Kir%C3%A1lys%C3%A1g&q-localised-check-in=2016%2F03%2F21&q-localised-check-out=2016%2F03%2F22&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">
-					See all 829 hotels in London 
-					<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15"/>
-				</a>
-			</div>
-		</div>
-		<div>
-			<div id="secondDestination" class="destination">
-				<img id="arrowOpen2" class="arrow arrowClose"></img>
-				<span class="destinationName">New York, New York, United States</span>
-				<div class="moreHotels">over 583 hotels</div>
-			</div>
-			<div id="secondHotel" class="hotel">
-				<table>
-				  <tr>
-					<td id="hotelName_2_1" class="hotelName">The Waldorf Astoria</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_2_1" class="hotelPrice">114</td> 
-					<td><button id="increaseRoomNumber_2_1" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_2_1" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_2_1" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				  <tr>
-					<td id="hotelName_2_2" class="hotelName">Park Central New York Hotel</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_2_2" class="hotelPrice">256</td> 
-					<td><button id="increaseRoomNumber_2_2" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_2_2" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_2_2" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				  <tr>
-					<td id="hotelName_2_3" class="hotelName">Hilton Garden Inn New York/West 35th Street</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_2_3" class="hotelPrice">122</td> 
-					<td><button id="increaseRoomNumber_2_3" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_2_3" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_2_3" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				  <tr>
-					<td id="hotelName_2_4" class="hotelName">Hilton New York</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_2_4" class="hotelPrice">75</td> 
-					<td><button id="increaseRoomNumber_2_4" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_2_4" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_2_4" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				  <tr>
-					<td id="hotelName_2_5" class="hotelName">Hotel Pennsylvania</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_2_5" class="hotelPrice">98</td> 
-					<td><button id="increaseRoomNumber_2_5" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_2_5" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_2_5" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				</table>
-				<a href="https://hu.hotels.com/search.do?resolved-location=CITY%3A1506246%3AUNKNOWN%3AUNKNOWN&destination-id=1506246&q-destination=New%20York,%20New%20York,%20Amerikai%20Egyes%C3%BClt%20%C3%81llamok&q-localised-check-in=2016%2F03%2F21&q-localised-check-out=2016%2F03%2F22&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">
-					See all 583 hotels in New York
-					<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15">
-				</a>
-			</div>
-		</div>
-		<div>
-			<div id="thirdDestination" class="destination">
-				<img id="arrowOpen3" class="arrow arrowClose"></img>
-				<span class="destinationName">Paris, France</span>
-				<div class="moreHotels">over 1554 hotels</div>
-			</div>
-			<div id="thirdHotel" class="hotel">
-				<table>
-				  <tr>
-					<td id="hotelName_3_1" class="hotelName">Sofitel Paris Le Faubourg</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_3_1" class="hotelPrice">77</td> 
-					<td><button id="increaseRoomNumber_3_1" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_3_1" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_3_1" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-
-				  <tr>
-					<td id="hotelName_3_2" class="hotelName">Pullman Paris Tour Eiffel</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_3_2" class="hotelPrice">89</td> 
-					<td><button id="increaseRoomNumber_3_2" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_3_2" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_3_2" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-
-				  <tr>
-					<td id="hotelName_3_3" class="hotelName">Champs Elysees Mac Mahon</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_3_3" class="hotelPrice">135</td> 
-					<td><button id="increaseRoomNumber_3_3" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_3_3" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_3_3" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-
-				  <tr>
-					<td id="hotelName_3_4" class="hotelName">Hotel Regina</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_3_4" class="hotelPrice">133</td> 
-					<td><button id="increaseRoomNumber_3_4" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_3_4" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_3_4" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-
-				  <tr>
-					<td id="hotelName_3_5" class="hotelName">Hotel Pershing Hall Paris</td>
-					<td class="currency">&pound;</td> 
-					<td id="hotelPrice_3_5" class="hotelPrice">145</td> 
-					<td><button id="increaseRoomNumber_3_5" class="increaseRoomNumber"></button></td> 
-					<td id="pieceOfNights_3_5" class="pieceOfNights">0</td> 
-					<td><button id="decreaseRoomNumber_3_5" class="decreaseRoomNumber"></button></td> 
-				  </tr>  
-				</table>
-				<a href="https://hu.hotels.com/search.do?resolved-location=CITY%3A504261%3AUNKNOWN%3AUNKNOWN&destination-id=504261&q-destination=P%C3%A1rizs,%20Franciaorsz%C3%A1g&q-localised-check-in=2016%2F03%2F21&q-localised-check-out=2016%2F03%2F22&q-rooms=1&q-room-0-adults=2&q-room-0-children=0">
-					See all 1554 hotels in Paris
-					<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15">
-				</a>
-			</div>
-		</div>
-		<a id="seeMoreHotels" href="https://hu.hotels.com/">
-			See all of our destination offers
-			<img src="assets/arrow-1.png" alt="Arrow" height="10" width="15">
-		</a>
-	</fieldset>
-</section>
-<section id="summaryModuleSection">
-	<fieldset>
-		<legend>Room Prices</legend>
-		<table id="summaryModuleTable"></table>
-	</fieldset>
-	<div id="totalPriceModule">
-		<span id="totalPriceText">Total price: </span>
-		<span id="totalPrice" class="totalPrice">0</span>		
-	</div>
-</section>
-
 </body>
 </html>

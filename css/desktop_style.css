@@ -125,17 +125,3 @@ button {
     padding: 5px;
 	float: right;
 }
-
-.arrow{
-  width: 6px;
-  height: 6px;
-  display: inline;
-}
-
-.arrowOpen{
-  background-image: url("../assets/arrow-2.png");
-}
-
-.arrowClose {
-  background-image: url("../assets/arrow-3.png");
-}

@@ -63,7 +63,7 @@ button {
 }
 
 #firstDestination, #secondDestination, #thirdDestination{
-	background-color: #dae9f4; /* Given color code in the colors.txt: #dae9f4. On the picture it was grey background.*/  
+	background-color: #dae9f4; 
 	margin: 5px -10px 5px -10px;
 	padding: 5px ;
 }
@@ -72,24 +72,18 @@ a, .destinationName, .hotelName{
 	color: #5b99dd;
 }
 
-#reservedHotelName_1_1, #reservedHotelName_1_2,  #reservedHotelName_1_3,  #reservedHotelName_1_4,  #reservedHotelName_1_5,
-#reservedHotelName_2_1, #reservedHotelName_2_2,  #reservedHotelName_2_3,  #reservedHotelName_2_4,  #reservedHotelName_2_5,
-#reservedHotelName_3_1, #reservedHotelName_3_2,  #reservedHotelName_3_3,  #reservedHotelName_3_4,  #reservedHotelName_3_5{
+.reservedHotelName{
 	color: #5b99dd;
 	font-family: Arial;
 	font-size: 13px;
 }
 
-#reservedHotelNights_1_1, #reservedHotelNights_1_2,  #reservedHotelNights_1_3,  #reservedHotelNights_1_4,  #reservedHotelNights_1_5,
-#reservedHotelNights_2_1, #reservedHotelNights_2_2,  #reservedHotelNights_2_3,  #reservedHotelNights_2_4,  #reservedHotelNights_2_5,
-#reservedHotelNights_3_1, #reservedHotelNights_3_2,  #reservedHotelNights_3_3,  #reservedHotelNights_3_4,  #reservedHotelNights_3_5{
+.reservedHotelNights{
 	color: #5b99dd;
 	padding: 0px 0px 0px 15px;
 }
 
-#reservedHotelPrice_1_1, #reservedHotelPrice_1_2,  #reservedHotelPrice_1_3,  #reservedHotelPrice_1_4,  #reservedHotelPrice_1_5,
-#reservedHotelPrice_2_1, #reservedHotelPrice_2_2,  #reservedHotelPrice_2_3,  #reservedHotelPrice_2_4,  #reservedHotelPrice_2_5,
-#reservedHotelPrice_3_1, #reservedHotelPrice_3_2,  #reservedHotelPrice_3_3,  #reservedHotelPrice_3_4,  #reservedHotelPrice_3_5{
+.reservedHotelPrice{
 	color: #008800;
     font-weight: bold;
 	text-align: right;

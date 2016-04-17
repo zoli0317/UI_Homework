@@ -1,13 +1,15 @@
 $(document).ready(function(){
 
 var summaryData = [];
-
+updateSummary();
+	
 $('.increaseRoomNumber').on('click', function () {
 	var currentNumberOfNights = Number($(this).parent().siblings('.pieceOfNights').html());
 	var newNumberOfNights = currentNumberOfNights + 1;
 	$(this).parent().siblings('.pieceOfNights').html(newNumberOfNights);
 	var hotelName = $(this).parent().siblings('.hotelName').html();
 	var price = Number($(this).parent().siblings('.hotelPrice').find('span').html());
+	$(this).parents('.tableRow').addClass('selectedHotel');
 	
 	//Create a hotel
 	var hotel = {
@@ -66,12 +68,22 @@ $('.decreaseRoomNumber').on('click', function() {
 		});
 	} else {
 		summaryData.splice(hotelIndex, 1);
+		$(this).parents('.tableRow').removeClass('selectedHotel');
 	}
 	
 	updateSummary();
 });
 
 function updateSummary(){
+	// Hiding the table if there are not hotels in the list
+	var summaryTable = $('#summaryModuleSection');
+	if (summaryData.length === 0){ 
+		summaryTable.hide();
+		return;
+	} else {
+		summaryTable.show();
+	}
+
 	var totalPrice = 0;
 	var summaryTableBody = $('#summaryModuleTable');
 	summaryTableBody.empty();

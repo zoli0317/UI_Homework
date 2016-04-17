@@ -17,7 +17,6 @@ fieldset {
 legend{
 	font-size: 20px;
 	color: #f8ac19;
-	margin: 0px 0px 0px -13px;
 }
 
 table {
@@ -45,6 +44,10 @@ legend, a, .destinationName, .moreHotels{
 	font-size: 15px;
 }
 
+a, .hotelName, .reservedHotelName{
+	padding: 0px 0px 0px 15px;
+}
+
 .hotelName{
     width: 75%;
 	font-family: Arial;
@@ -53,7 +56,7 @@ legend, a, .destinationName, .moreHotels{
 
 .destination{
 	background-color: #dae9f4; 
-	margin: 5px -10px 5px -10px;
+	margin: 5px 0px 5px 0px;
 	padding: 5px ;
 }
 
@@ -78,6 +81,10 @@ button {
 	background-image: url(../assets/icon-remove.png);
 }
 
+.increaseRoomNumber:hover, .decreaseRoomNumber:hover {
+    cursor: pointer;
+}
+
 .pieceOfNights{
     font-weight: bold;
 }
@@ -86,24 +93,26 @@ button {
 	color: #5b99dd;
 	font-family: Arial;
 	font-size: 13px;
+	padding: 5px 0px 5px 15px;
 }
 
 .reservedHotelNights{
 	color: #5b99dd;
 	font-family: Arial;
 	font-size: 13px;
-	padding: 0px 0px 0px 15px;
+	padding: 5px 0px 5px 30px;
 }
 
 .reservedHotelPrice{
 	color: #008800;
     font-weight: bold;
 	text-align: right;
+	padding: 0px 15px 0px 0px;
 }
 
 #totalPriceModule {
     font-family: Arial;
-	padding: 5px 15px 0px 0px;
+	padding-top: 10px;
 	float: right;
 }
 
@@ -114,6 +123,8 @@ button {
 #totalPrice, .hotelPrice{
 	color: #008800;
     font-weight: bold;
+	text-align: right;
+	padding-right: 15px; 
 }
 
 .moreHotels{
@@ -124,4 +135,18 @@ button {
 .seeMoreHotels{
     padding: 5px;
 	float: right;
+}
+
+.tableRow:hover{
+    font-weight: bold;
+}
+
+.selectedHotel{
+	background-color: #f1fbfc;
+}
+
+@media only screen and (max-width: 640px) {
+	section {
+		width: 95%;
+	}
 }
